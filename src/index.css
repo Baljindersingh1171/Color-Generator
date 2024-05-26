@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.color-light {
+  color: white;
+}
+.container {
+  max-height: 200px;
+  max-width: 255px;
+  cursor: pointer;
+}
+.colors {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.content {
+  height: 100vh;
+}
+p {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.colorpicker {
+  transform: scale(1.6);
+  border: none;
+  margin: 20px;
+}
+span {
+  font-size: 30px;
+}
+#inp2 {
+  height: 40px;
+  border: none;
+  background-color: rgb(235, 236, 236);
+
+  font-weight: bold;
+  font-size: 20px;
+  padding-bottom: 1px;
+}
+button {
+  padding: 15px;
+  background-color: rgb(93, 82, 248);
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.container:hover {
+  transform: scale(1.08);
+
+  transition: 0.6s;
+}
